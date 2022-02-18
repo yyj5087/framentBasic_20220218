@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FramentBasic_20220218">
         <activity
+            android:name=".Fragment.MyFirstFragment"
+            android:exported="true" />
+        <activity
+            android:name=".F.MyFirstFragment"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
